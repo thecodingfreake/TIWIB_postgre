@@ -11,7 +11,7 @@ body{
     background-color: #FBE8DE;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 30px;
     height: 100vh;
 }
 .landing__page{
@@ -19,6 +19,9 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+}
+.header__img{
+    height: 100px;
 }
 .blog__wrapper{
     margin: 0 auto;

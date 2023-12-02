@@ -58,8 +58,8 @@ body {
 .top{
   top: 65px;
   border-radius: 3px;
-  left: 40px;
-  height: 29px;
+  left: -12px;
+  height: 39px;
   width: 36px;
   font-size: 20px;
   font-weight: bold;
@@ -499,6 +499,15 @@ cursor: pointer;
   margin-top: 20px;
 
 }
+.logintosave{
+  display: none;
+}
+.flex-item:hover .logintosave{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
 
 .savebtn {
   position: absolute;
@@ -802,7 +811,7 @@ cursor: pointer;
   position: sticky;
   top: 0;
   left: 0;
-  height: 100vh;
+  min-height: 120vh;
   max-width: 100%;
   min-width: 0%;
   background: #221f45; 
